@@ -1,5 +1,10 @@
 # Notes
 
+## Practice Webistes
+
+1. http://www.automationpractice.pl/index.php
+2. https://demo.nopcommerce.com
+
 # Full Code
 
 import { test, expect } from '@playwright/test';
@@ -199,11 +204,17 @@ Serving HTML report at http://localhost:9323. Press Ctrl+C to quit.
 ![First Test SS Verify](test_html_SS/first_verify.JPG)
 
 ## Locators
-official link(https://playwright.dev/docs/locators) to read all locators with example.
+
+Locator:- A Locator in Playwright is an object used to find and interact with elements on a web page (buttons, inputs, links, text, etc.).
+
+👉 In simple words:
+Locator = Address of a web element
+
+# Offical link(https://playwright.dev/docs/locators) to read all locators with example.
 
 These are the recommended built-in locators.
 
-1. page.getByRole() to locate by explicit and implicit accessibility attributes.
+1. page.getByRole() to locate by explicit (means tag is name is diffrent and role is diffrent {ex:- heading, checkbox}) and implicit (means tag name and role both are same {ex:- button}) accessibility attributes.
 2. page.getByText() to locate by text content.
 3. page.getByLabel() to locate a form control by associated label's text.
 4. page.getByPlaceholder() to locate an input by placeholder.

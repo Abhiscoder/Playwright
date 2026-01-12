@@ -1,2 +1,14 @@
 1. toHaveTitle():- It is Playwright assertion used to verify the current page Title.
 2. toHaveURL():- It is Playwright assertion used to verify the current page URL.
+
+
+
+
+
+
+
+
+//something extra :- Ignore CaseSestive test use this formate 
+        (/<anyText>\s+<anyText>\s+<anyText>\s+<anyText>/i)
+        
+        example:- page.getByText(/Welcome\s+To\s+Our\s+Store/i)
