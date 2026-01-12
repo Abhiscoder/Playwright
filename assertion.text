@@ -1,0 +1,2 @@
+1. toHaveTitle():- It is Playwright assertion used to verify the current page Title.
+2. toHaveURL():- It is Playwright assertion used to verify the current page URL.
