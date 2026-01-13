@@ -227,5 +227,5 @@ These are the recommended built-in locators.
 
 
 ## TEST Result outputs
-1. 
-![FlipKart](test_html_SS/flipkart.JPG)
+1. Flipkart URL :- ![FlipKart](test_html_SS/flipkart.JPG)
+1. Flipkart Name :- ![FlipKart](test_html_SS/flipkart.JPG)
