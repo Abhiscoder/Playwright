@@ -221,3 +221,11 @@ These are the recommended built-in locators.
 5. page.getByAltText() to locate an element, usually image, by its text alternative.
 6. page.getByTitle() to locate an element by its title attribute.
 7. page.getByTestId() to locate an element based on its data-testid attribute (other attributes can be configured).
+
+
+
+
+
+## TEST Result outputs
+1. 
+![FlipKart](test_html_SS/flipkart.JPG)
