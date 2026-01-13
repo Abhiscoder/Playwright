@@ -1,9 +1,14 @@
 # Notes
+
 ## TEST Result outputs
 
 1. Flipkart URL :- ![FlipKart](test_html_SS/flipkart.JPG)
 2. Flipkart Title :- ![FlipKart](test_html_SS/flipkart_name.JPG)
 3. Youtube (URL and Title) :-![Youtube](test_html_SS/youtube.JPG)
+4. Nopcommerce :-![nopcommerce](test_html_SS/nopcommerce.JPG)
+5. Nopcommerce - Registration Form :-![Registration](test_html_SS/Registration_form.JPG)
+6. Nopcommerce - Search Bar :-![Search Bar](test_html_SS/placeholder_locator.JPG)
+7. Your Shop :-![Title](test_html_SS/title.JPG)
 
 ## Practice Webistes
 
@@ -226,4 +231,3 @@ These are the recommended built-in locators.
 5. page.getByAltText() to locate an element, usually image, by its text alternative.
 6. page.getByTitle() to locate an element by its title attribute.
 7. page.getByTestId() to locate an element based on its data-testid attribute (other attributes can be configured).
-
