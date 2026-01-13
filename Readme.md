@@ -1,4 +1,9 @@
 # Notes
+## TEST Result outputs
+
+1. Flipkart URL :- ![FlipKart](test_html_SS/flipkart.JPG)
+2. Flipkart Title :- ![FlipKart](test_html_SS/flipkart_name.JPG)
+3. Youtube (URL and Title) :-![Youtube](test_html_SS/youtube.JPG)
 
 ## Practice Webistes
 
@@ -222,8 +227,3 @@ These are the recommended built-in locators.
 6. page.getByTitle() to locate an element by its title attribute.
 7. page.getByTestId() to locate an element based on its data-testid attribute (other attributes can be configured).
 
-## TEST Result outputs
-
-1. Flipkart URL :- ![FlipKart](test_html_SS/flipkart.JPG)
-2. Flipkart Title :- ![FlipKart](test_html_SS/flipkart_name.JPG)
-3. Youtube (URL and Title) :-![FlipKart](test_html_SS/youtube.JPG)
