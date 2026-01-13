@@ -14,6 +14,7 @@
 
 1. http://www.automationpractice.pl/index.php
 2. https://demo.nopcommerce.com
+3. https://demowebshop.tricentis.com/
 
 # Full Code
 
@@ -231,3 +232,32 @@ These are the recommended built-in locators.
 5. page.getByAltText() to locate an element, usually image, by its text alternative.
 6. page.getByTitle() to locate an element by its title attribute.
 7. page.getByTestId() to locate an element based on its data-testid attribute (other attributes can be configured).
+
+# XPath
+
+XPath (XML Path Language) is used to locate elements in a web page based on the DOM structure.
+
+🔹 Types of XPath
+1️⃣ Absolute XPath
+/html/body/div[1]/div/form/input
+
+Starts from root /html
+
+- Very fragile
+- Breaks if UI changes
+
+2️⃣ Relative XPath ✅ (Preferred)
+//input[@id='email']
+
+Starts with //
+
+- More stable
+- Easy to maintain
+
+# Basic XPath Syntax
+
+//tagname[@attribute='value']
+
+Examples
+//input[@name='username']
+//button[@type='submit']
