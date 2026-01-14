@@ -1,6 +1,6 @@
 # Playwright Automation Framework | End-to-End Testing
 
- # Key Highlights
+# Key Highlights
 
 Automated UI test cases using Playwright for Chromium, Firefox, and WebKit
 
@@ -53,6 +53,8 @@ Version Control: Git & GitHub
 5. Nopcommerce - Registration Form :-![Registration](test_html_SS/Registration_form.JPG)
 6. Nopcommerce - Search Bar :-![Search Bar](test_html_SS/placeholder_locator.JPG)
 7. Your Shop :-![Title](test_html_SS/title.JPG)
+8. Demo Web Shop :-![xPath_Relative_Abslute](test_html_SS/xPath.JPG)
+9. Demo Web Shop :-![contains](test_html_SS/constains.JPG)
 
 # Short notes
 
@@ -277,7 +279,7 @@ XPath (XML Path Language) is used to locate elements in a web page based on the 
 
 🔹 Types of XPath
 1️⃣ Absolute XPath
-/html/body/div[1]/div/form/input
+//html/body/div[1]/div/form/input
 
 Starts from root /html
 
