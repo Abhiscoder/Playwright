@@ -1,22 +1,6 @@
 # Playwright Automation Framework | End-to-End Testing
 
-## TEST Result outputs
-
-1. Flipkart URL :- ![FlipKart](test_html_SS/flipkart.JPG)
-2. Flipkart Title :- ![FlipKart](test_html_SS/flipkart_name.JPG)
-3. Youtube (URL and Title) :-![Youtube](test_html_SS/youtube.JPG)
-4. Nopcommerce :-![nopcommerce](test_html_SS/nopcommerce.JPG)
-5. Nopcommerce - Registration Form :-![Registration](test_html_SS/Registration_form.JPG)
-6. Nopcommerce - Search Bar :-![Search Bar](test_html_SS/placeholder_locator.JPG)
-7. Your Shop :-![Title](test_html_SS/title.JPG)
-
-## Practice Webistes
-
-1. http://www.automationpractice.pl/index.php
-2. https://demo.nopcommerce.com
-3. https://demowebshop.tricentis.com/
-
-# Key Highlights
+ # Key Highlights
 
 Automated UI test cases using Playwright for Chromium, Firefox, and WebKit
 
@@ -54,7 +38,23 @@ Assertions & Reporting: Built-in Playwright reporters
 
 Version Control: Git & GitHub
 
-# Full Code
+# Practice Webistes
+
+1. http://www.automationpractice.pl/index.php
+2. https://demo.nopcommerce.com
+3. https://demowebshop.tricentis.com/
+
+# TEST Result outputs
+
+1. Flipkart URL :- ![FlipKart](test_html_SS/flipkart.JPG)
+2. Flipkart Title :- ![FlipKart](test_html_SS/flipkart_name.JPG)
+3. Youtube (URL and Title) :-![Youtube](test_html_SS/youtube.JPG)
+4. Nopcommerce :-![nopcommerce](test_html_SS/nopcommerce.JPG)
+5. Nopcommerce - Registration Form :-![Registration](test_html_SS/Registration_form.JPG)
+6. Nopcommerce - Search Bar :-![Search Bar](test_html_SS/placeholder_locator.JPG)
+7. Your Shop :-![Title](test_html_SS/title.JPG)
+
+# Short notes
 
 import { test, expect } from '@playwright/test';
 
