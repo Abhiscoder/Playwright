@@ -43,6 +43,7 @@ Version Control: Git & GitHub
 1. http://www.automationpractice.pl/index.php
 2. https://demo.nopcommerce.com
 3. https://demowebshop.tricentis.com/
+4. https://testautomationpractice.blogspot.com/
 
 # TEST Result outputs
 
@@ -58,6 +59,7 @@ Version Control: Git & GitHub
 10. Demo Web Shop :-![Product title](test_html_SS/product_titles.JPG)
 11. Demo Web Shop :-![Start-width](test_html_SS/start-width.JPG)
 12. Demo Web Shop :-![last_position](test_html_SS/last_position.JPG)
+13. Automation testing Practice :-![dynamic_xpath](test_html_SS/dynamic_xpath.JPG)
 
 # Short notes
 
