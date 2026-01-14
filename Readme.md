@@ -55,6 +55,9 @@ Version Control: Git & GitHub
 7. Your Shop :-![Title](test_html_SS/title.JPG)
 8. Demo Web Shop :-![xPath_Relative_Abslute](test_html_SS/xPath.JPG)
 9. Demo Web Shop :-![contains](test_html_SS/constains.JPG)
+10. Demo Web Shop :-![Product title](test_html_SS/product_titles.JPG)
+11. Demo Web Shop :-![Start-width](test_html_SS/start-width.JPG)
+12. Demo Web Shop :-![last_position](test_html_SS/last_position.JPG)
 
 # Short notes
 
