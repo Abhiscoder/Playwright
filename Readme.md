@@ -1,4 +1,4 @@
-# Notes
+# Playwright Automation Framework | End-to-End Testing
 
 ## TEST Result outputs
 
@@ -15,6 +15,44 @@
 1. http://www.automationpractice.pl/index.php
 2. https://demo.nopcommerce.com
 3. https://demowebshop.tricentis.com/
+
+# Key Highlights
+
+Automated UI test cases using Playwright for Chromium, Firefox, and WebKit
+
+Implemented robust locator strategies using role, text, and CSS selectors
+
+Designed reusable test scripts following best automation practices
+
+Performed functional, regression, and smoke testing
+
+Handled assertions, waits, and browser contexts for stable test execution
+
+Generated HTML test reports for easy analysis
+
+Integrated API testing to validate backend responses (where applicable)
+
+# Test Coverage
+
+Login & authentication flows
+
+Form validation & UI behavior
+
+Navigation & cross-browser compatibility
+
+End-to-End user scenarios
+
+# Tech Stack
+
+Automation Tool: Playwright
+
+Language: TypeScript
+
+Test Runner: Playwright Test
+
+Assertions & Reporting: Built-in Playwright reporters
+
+Version Control: Git & GitHub
 
 # Full Code
 
