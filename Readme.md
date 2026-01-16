@@ -44,6 +44,7 @@ Version Control: Git & GitHub
 2. https://demo.nopcommerce.com
 3. https://demowebshop.tricentis.com/
 4. https://testautomationpractice.blogspot.com/
+5. https://www.w3schools.com/html/html_tables.asp
 
 # TEST Result outputs
 
