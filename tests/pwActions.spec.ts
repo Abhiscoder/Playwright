@@ -1,11 +1,10 @@
 import { test, expect, Locator } from "@playwright/test";
 import { text } from "stream/consumers";
 
+//Text input and textbox
 test("Text Input Actions", async ({ page }) => {
   await page.goto("https://testautomationpractice.blogspot.com");
 
-
-  //Text input and textbox
   const textBox: Locator = page.locator("#name");
 
   await expect(textBox).toBeVisible();
@@ -20,7 +19,37 @@ test("Text Input Actions", async ({ page }) => {
   expect(enteredvalue).toBe("Abhishek Kumar");
 
   await page.waitForTimeout(5000);
+});
 
+//Radio Button
 
-  
+test("Radio Button Actions", async ({ page }) => {
+  await page.goto("https://testautomationpractice.blogspot.com");
+
+  const maleRadio: Locator = page.locator("#male"); //maleRadio is a locator
+  await expect(maleRadio).toBeVisible();
+  await expect(maleRadio).toBeEnabled();
+  expect(await maleRadio.isChecked()).toBe(false);
+
+  await maleRadio.check(); //select radio button
+  expect(await maleRadio.isChecked()).toBe(true);  //first method
+  await expect(maleRadio).toBeChecked(); //second method and is preferable
+
+  await page.waitForTimeout(5000);
+});
+
+//Checkbox 
+test.only("Checkbox Button Actions", async ({ page }) => {
+  await page.goto("https://testautomationpractice.blogspot.com");
+
+  const maleRadio: Locator = page.locator("#male"); //maleRadio is a locator
+  await expect(maleRadio).toBeVisible();
+  await expect(maleRadio).toBeEnabled();
+  expect(await maleRadio.isChecked()).toBe(false);
+
+  await maleRadio.check(); //select radio button
+  expect(await maleRadio.isChecked()).toBe(true);  //first method
+  await expect(maleRadio).toBeChecked(); //second method and is preferable
+
+  await page.waitForTimeout(5000);
 });
