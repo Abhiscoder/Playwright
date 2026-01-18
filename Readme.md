@@ -63,6 +63,7 @@ Version Control: Git & GitHub
 13. Automation testing Practice :-![dynamic_xpath](test_html_SS/dynamic_xpath.JPG)
 14. Automation testing Practice :-![Test_Input_Actions](test_html_SS/Text_Input_Actions.PNG)
 15. Automation testing Practice :-![Radio_Button_Actions](test_html_SS/Radio_Buttons_Actions.PNG)
+16. Automation testing Practice :-![Checkbox_Actions](test_html_SS/Checkbox_Actions.PNG)
 
 # Short notes
 
