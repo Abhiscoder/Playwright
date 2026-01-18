@@ -61,6 +61,7 @@ Version Control: Git & GitHub
 11. Demo Web Shop :-![Start-width](test_html_SS/start-width.JPG)
 12. Demo Web Shop :-![last_position](test_html_SS/last_position.JPG)
 13. Automation testing Practice :-![dynamic_xpath](test_html_SS/dynamic_xpath.JPG)
+13. Automation testing Practice :-![Test_Input_Actions](test_html_SS/Text_Input_Actions.PNG)
 
 # Short notes
 
