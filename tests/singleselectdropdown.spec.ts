@@ -5,10 +5,10 @@ test("Single Select DropDown", async ({ page }) => {
 
   //1) Select option from the drop down(4 ways)
 
-  // await page.selectOption("#country",'India')// Visible text
-  // await page.selectOption("#country", "usa"); // by using value attribute
-  // await page.selectOption("#country",{label:"India"}); //label
-  // await page.selectOption("#country", { index: 3 });// by using index
+  await page.selectOption("#country",'India')// Visible text
+  await page.selectOption("#country", "usa"); // by using value attribute
+  await page.selectOption("#country",{label:"India"}); //label
+  await page.selectOption("#country", { index: 3 });// by using index
 
   //2) Check number of options in the dropdown (count)
 
@@ -29,5 +29,5 @@ test("Single Select DropDown", async ({ page }) => {
 
 
 
-  // await page.waitForTimeout(3000);
+  await page.waitForTimeout(3000);
 });
