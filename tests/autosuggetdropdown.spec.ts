@@ -18,6 +18,14 @@ test("AutoSuggest dropdown", async ({ page }) => {
     // console.log(await options.nth(i).innerText());
     console.log(await options.nth(i).textContent());
   }
+  //select/click on the smartphone option
+  for (let i = 0; i < count; i++) {
+    const text = await options.nth(i).innerText();
+    if (text === "smartphone") {
+      options.nth(i).click();
+      break;
+    }
+  }
 
-  await page.waitForTimeout(2000);
+  await page.waitForTimeout(5000);
 });
