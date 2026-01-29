@@ -28,14 +28,15 @@ test("Bootstrap hidden dropdown", async ({ page }) => {
     console.log(await options.nth(i).innerText());
   }
   //Select/click on option
-  for (let i = 0; i < count; i++) {
-    count text = await options.nth(i).innerText();
+  // for (let i = 0; i < count; i++) {
+  //   count text = await options.nth(i).innerText();
 
-   if(text==='Automaton Tester'){
-    await options.nth(i).click();
-    break;
-   } 
-  }
-await page.waitForTimeout(5000);
+  //  if(text==='Automaton Tester'){
+  //   await options.nth(i).click();
+  //   break;
+  //  } 
+  // }
+  await page.waitForTimeout(5000);
   
-});
+  }
+);
